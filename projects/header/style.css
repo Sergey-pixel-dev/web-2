@@ -4,10 +4,65 @@
 }
 
 body{
-    
+    font-family: "Montserrat", system-ui;
 }
 
 .header{
-    width: 100%;
-    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+nav{
+    margin: 1% 0 0 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__ul, .menu__log{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    margin: 0;
+    text-wrap: nowrap;
+    padding: 0;
+}
+.menu__link:hover{
+    color: #05a88d;
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.menu_logo{
+    position: absolute; 
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #05a88d;
+    text-decoration: none;
+    transition: font-size 0.5s ease, color 0.5s ease;
+}
+.menu_logo:hover{
+    font-size: 28px;
+    color: #087664;
+}
+.menu__log{
+    list-style: none;
+    display: flex;
+}
+.menu__signup, .menu__login{
+    border: 1px solid #05a88d;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.menu__signup:hover,.menu__login:hover  {
+    background-color: #05a88d;
+    color: #fff;
 }
