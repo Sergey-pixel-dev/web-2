@@ -17,7 +17,6 @@ body{
     
 }
 
-/* Карточка */
 .card {
     background-color: white;
     border-radius: 20px;
@@ -28,7 +27,6 @@ body{
     display: inline;
 }
 
-/* Изображение */
 .card__image img {
     width: 100%;
     height: auto;
@@ -42,14 +40,12 @@ body{
     margin: 25px 0px 25px 20px;
     font-weight: bold;
 }
-/* Текст */
 .card__text {
     font-size: 18px;
     margin: 0 20px 20px 20px;
     line-height: 1.5;
 }
 
-/* Кнопка */
 .card__btn button{
     background-color: #2B7A94;
     color: white;

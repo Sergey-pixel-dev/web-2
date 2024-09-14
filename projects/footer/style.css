@@ -32,14 +32,12 @@ html,body{
 .phone{
     color: #F1E67D;
     font-size: 28px;
-    /* text-align: right; */
     white-space: nowrap; 
     margin-top: 2%;
     font-weight: 650;
 }
 .contact{
     color: #FFFF;
-    /* text-align: right; */
     font-size: 22px;
 }
 .footer__left{
