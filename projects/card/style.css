@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
 .container{
@@ -16,6 +16,54 @@ body{
     background-color: #15638F;
     
 }
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    max-height: 600px;
+    overflow: auto;
+    display: inline;
+}
+
+.card__image img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.card__title{
+    font-size: 22px;
+    margin: 25px 0px 25px 20px;
+    font-weight: bold;
+}
+.card__text {
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+    line-height: 1.5;
+}
+
+.card__btn button{
+    background-color: #2B7A94;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px 20px 20px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+}
+
+.card__btn button:hover {
+    background-color: #22667D; 
+    transform: scale(1.2);
+}
+
 
 
 
